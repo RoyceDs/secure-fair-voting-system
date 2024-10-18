@@ -23,7 +23,7 @@
     
     c) Ubuntu: https://askubuntu.com/questions/4428/how-can-i-record-my-screen
     
-5. Share the repository link into the Google Form: https://forms.gle/2HbLP8GNiYArZFsj8
+5. Share the repository link into the Google Form: [https://forms.gle/2HbLP8GNiYArZFsj8](https://forms.gle/ufqFg2Kgk5C54Amn7)
 
 
 ## Problem Statement:
@@ -49,5 +49,5 @@ Your task is to create a robust voting algorithm for a system where each voter i
 - An explanation in the README about how your algorithm handles strategic voting.
 - Ensure your solution can handle edge cases and larger datasets.
 
-**Push the source code along with a demo video of your solution into the forked github repo. Share the repo link in the google form: https://forms.gle/2HbLP8GNiYArZFsj8**
+**Push the source code along with a demo video of your solution into the forked github repo. Share the repo link in the google form: [https://forms.gle/2HbLP8GNiYArZFsj8](https://forms.gle/ufqFg2Kgk5C54Amn7)**
 
