@@ -45,9 +45,11 @@ Your task is to develop a robust voting algorithm for a system where each voter 
 - Add a new voter
 - Allow voters to cast their votes for candidates
 - Check the results
+
 Our aim is to assess applicants' aptitude, innovative thinking, and their ability to comeup with new ways of solving problems, its an open ended assessment and candidate is free to innovate new ways. 
-**Deliverables**:
-  - Backend APIs with required conditions
+
+### **Deliverables**:
+  - Backend APIs with required conditions (no specific Techstack)
   - video showing multiple API calls right from creating a poll till declaring the winner
   - Readme explaining steps of installation and features included
   - Live hosted API (optional)
