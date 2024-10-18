@@ -27,27 +27,30 @@
 
 
 ## Problem Statement:
+![image](https://github.com/user-attachments/assets/9a727d61-ad06-47fb-9701-c6aab1ac9eda)
 
-Your task is to create a robust voting algorithm for a system where each voter is allocated 10 votes and can freely distribute them among 6 candidates. The challenge is to ensure fairness while mitigating strategic voting manipulation.
+Often, when people participate in a poll, they don’t have just one preferred option; they may favor candidate A but also see merit in candidate B. What if we had a voting system designed to address this issue? Imagine if each person were given 10 votes to distribute among candidates according to their preferences. This could allow for a range of voting strategies, such as allocating all 10 votes to one candidate or splitting them, like giving 4 votes to one and 6 to another.
 
-**Scenario**:
+![image](https://github.com/user-attachments/assets/9e5cac3b-32a1-4025-a6da-43630baf59c0)
 
-- Each voter can distribute their 10 votes across the 6 candidates however they want (e.g., 4 votes to Candidate A, 3 votes to Candidate B, 1 vote each to Candidates C, D, E, F).
-- The system must detect and reduce the impact of strategic voting, where voters may intentionally skew results by allocating all their votes to a single candidate.
-- The system should assume that strategic voting happens up to 45% of the time.
+### problems with the new voting system
+The voting system is intriguing and can capture the diverse preferences of voters, but it does have limitations and potential risks from bad actors. One concern arises if a bad actor manages to recruit about 40% of the voters. With such a significant bloc, it becomes nearly impossible for others to achieve a majority, especially since it's likely that the remaining participants will distribute their votes among various candidates.
+![image](https://github.com/user-attachments/assets/da36c897-bdfa-4648-bb2a-983f7c6b6f2b)
 
-**Requirements**:
+### The Task
+Your task is to develop a robust voting algorithm for a system where each voter receives 10 votes to distribute among candidates as they wish. The challenge is to ensure fairness while minimizing the risk of strategic voting manipulation. Build a backend with the following essential endpoints:
 
-- The input will be provided in CSV format (each row representing a voter and their allocated votes).
-- The system must output the most eligible candidate, considering fairness and minimizing the effect of strategic voting.
-- You must create a program that processes the CSV, evaluates the votes, and outputs the result.
-- Document and include your approach to detecting and mitigating strategic voting.
-
+- Create a new voting room
+- Add a new candidate
+- Add a new voter
+- Allow voters to cast their votes for candidates
+- Check the results
+Our aim is to assess applicants' aptitude, innovative thinking, and their ability to comeup with new ways of solving problems, its an open ended assessment and candidate is free to innovate new ways. 
 **Deliverables**:
-
-- A backend program that processes voting data and produces results.
-- An explanation in the README about how your algorithm handles strategic voting.
-- Ensure your solution can handle edge cases and larger datasets.
+  - Backend APIs with required conditions
+  - video showing multiple API calls right from creating a poll till declaring the winner
+  - Readme explaining steps of installation and features included
+  - Live hosted API (optional)
 
 **Push the source code along with a demo video of your solution into the forked github repo. Share the repo link in the google form: [https://forms.gle/2HbLP8GNiYArZFsj8](https://forms.gle/ufqFg2Kgk5C54Amn7)**
 
